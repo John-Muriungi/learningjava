@@ -1,0 +1,6 @@
+control statements in java  manage the flow of program execution.they include
+        decision-making statements =>if-else, if, if-else-if, switch
+        looping statements=> for loop ,while loop,do-while
+        jump/branching statements => break and continue,return;
+
+    all these help dictate  how the program  executes allowing it respond  dynamically to various  conditions
