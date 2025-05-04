@@ -14,16 +14,24 @@ public class Execrcise2 {
         String item;
         double price;
         int quantity;
+        double total=0;
         char currency ='$';
 
-        System.out.print("what item would you line to buy ");
+        System.out.print("what item would you line to buy: ");
         item= scanner.nextLine();
 
-        System.out.print("Enter the price for each");
+        System.out.print("Enter the price for each:");
         price=scanner.nextDouble();
 
-        System.out.print("How many would you like :");
+        System.out.print("How many would you like:");
         quantity= scanner.nextInt();
+
+
+        System.out.println("you want to buy: "+quantity+" " +item+"(s)");
+        total=quantity*price;
+        System.out.println("the total wil be "+total +" "+currency);
+
+
         scanner.close();
 
 
