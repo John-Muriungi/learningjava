@@ -8,7 +8,7 @@ public class UsefulStringmethods {
 
 
 
-//length() method
+//length() method it shows the length of a given string
         int length = name.length();
         System.out.println("the lenth of the string is"+length);
 
